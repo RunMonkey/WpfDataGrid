@@ -31,8 +31,8 @@ namespace WpfDataGrid
             {
                 var m = new Model();
                 m.index = i;
-                m.Name = "测试数据测试数据测试数据测试数据测试数据测试数据测试数据"+i;
-                m.PhoneNum = i+"测试数据测试数据测试数据测试数据测试数据测试数据测试数据";
+                m.Name = "testdata"+i;
+                m.PhoneNum = i+"testdata";
                 mlist.Add(m);
             }
         }
