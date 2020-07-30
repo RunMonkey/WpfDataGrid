@@ -27,7 +27,7 @@ namespace WpfDataGrid
 
             mlist = new List<Model>();
             
-            for(int i=0;i<100*50;i++)
+            for(int i=0;i<100*100;i++)
             {
                 var m = new Model();
                 m.index = i;
@@ -79,7 +79,7 @@ namespace WpfDataGrid
             set
             {
                 _isVisible = value;
-                //OnPropertyChanged("isVisible");
+                OnPropertyChanged("isVisible");
             }
         }
 
